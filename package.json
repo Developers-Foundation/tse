@@ -1,0 +1,27 @@
+{
+  "name": "tse",
+  "version": "1.0.0",
+  "description": "Toronto Sock Exchange website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Developers-Foundation/tse.git"
+  },
+  "author": "Developers' Foundation",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Developers-Foundation/tse/issues"
+  },
+  "homepage": "https://github.com/Developers-Foundation/tse#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4"
+  }
+}

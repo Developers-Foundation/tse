@@ -28,7 +28,7 @@ gulp.task('minify-css', ['less'], function() {
 
 // Minify JS
 gulp.task('minify-js', function() {
-    return gulp.src(['js/off-canvas.js', 'js/bunny-bear-button.js', 'js/class-manager.js'])
+    return gulp.src('js/test.js')
         .pipe(uglify())
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('js'))

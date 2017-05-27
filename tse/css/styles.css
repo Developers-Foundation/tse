@@ -1,19 +1,12 @@
 body {
   background-color: #FFF1D0;
 }
-nav ul li {
-  text-align: center;
-}
-nav ul li a {
-  text-decoration: none;
-}
-.unstyled-list {
-  list-style-type: none;
-  padding: 0;
+body footer p {
+  margin-bottom: -15px;
 }
 #landing header {
   display: flex;
 }
-#landing header ul {
-  width: 50vw;
+#about header {
+  font-weight: bold;
 }

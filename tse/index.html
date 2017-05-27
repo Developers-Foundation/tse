@@ -3,38 +3,19 @@
     <head>
         <meta charset="utf-8">
         <title>Toronto Sock Exchange</title>
-        <link rel="stylesheet" href="css/styles.min.css" />
+        <link rel="stylesheet" href="css/styles.min.css"/>
+        <script src="js/scripts.min.js"></script>
     </head>
-    <body>
-        <nav>
-            <ul class="unstyled-list">
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#partners">Partners</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-
+    <body onload="onLoad()"">
         <section id="landing">
             <header>
-                <img src="img/landing/logo.png" />
-                <ul class="unstyled-list">
-                    <li>Toronto</li>
-                    <li>Sock</li>
-                    <li>Exchange</li>
-                </ul>
+                <h1> Toronto Sock Exchange </h1>
             </header>
         </section>
 
         <section id="about">
-            <header>About Us</header>
             <section>
-                <header>Our Goal<header>
+                <header>Our Goal</header>
                 <p>
                     Sed ligula massa, vehicula at varius ultricies, ultricies eget eros.
                     Suspendisse eros sem, tincidunt et nunc et, pellentesque elementum arcu.
@@ -59,26 +40,11 @@
             </section>
         </section>
 
-        <section id="partners">
-            <header>Partners</header>
-            <img src="#" alt="partner logo"></img>
-            <img src="#" alt="partner logo"></img>
-        </section>
-
-        <section id="contact">
-            <header>Contact</header>
-            <img src="#"></img>
-            <img src="#"></img>
-        </section>
-
         <footer>
-            <p>
+            <p id="copyrights">
                 Content &copy; Toronto Sock Exchange
-                <script type="text/javascript">
-                    // Always show the current year
-                    var d = new Date();
-                    document.write(d.getFullYear() + ". ");
-                </script>
+            </p>
+            <p>
                 Designed by Developers' Foundation
             </p>
         </footer>

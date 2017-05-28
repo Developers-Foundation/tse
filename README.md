@@ -11,6 +11,6 @@ npm install
 
 ### Develop
 ```
-cd $HOME/workspace/tse
+cd $HOME/workspace/tse/tse
 gulp serve
 ```

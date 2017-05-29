@@ -21,26 +21,32 @@
             <header>
                 <h1>Toronto Sock Exchange</h1>
             </header>
+            <img src="" alt="" />
         </section>
 
         <section id="about">
             <section>
-                <img src="" alt="">
-                <header>Section 1</header>
+              <!-- subject wraps the header & paragraph so that the info is displayed vertically (ie. no space b/c of the flex property)-->
+              <div class="subject">
+                <header><h2>About Us</h2></header>
                 <p>
                     Sed ligula massa, vehicula at varius ultricies, ultricies eget eros.
                     Suspendisse eros sem, tincidunt et nunc et, pellentesque elementum arcu.
                     Integer eget felis non felis laoreet auctor in ultricies ex. Etiam non bibendum nisi.
                 </p>
+              </div><!--end .subject-->
+                <img src="" alt="">
             </section>
             <section>
                 <img src="" alt="">
-                <header>Section 2</header>
+                <div class="subject">
+                <header><h2>Success</h2></header>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Nulla venenatis, metus non auctor aliquet, ex massa aliquam turpis, ac venenatis lorem elit vitae ex.
                     Vivamus tortor velit, faucibus id mauris id, maximus aliquam purus.
                 </p>
+              </div><!--end .subject-->
             </section>
         </section>
 
@@ -54,21 +60,52 @@
         </section>
 
         <section id="contact">
+            <header><h2>Contact</h2></header>
+          <section>
             <section>
-                <img src="img/profile.jpg" alt="">
-                <header>John Doe</header>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
+              <table>
+                <tr>
+                  <th>
+                    <img src="img/profile.jpg" alt="">
+                  </th>
+                </tr>
+                <tr>
+                  <th>
+                    <header>John Doe</header>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </td>
+                </tr>
+              </table>
             </section>
             <section>
-                <img src="img/profile.jpg" alt="">
-                <header>John Doe</header>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
+              <table>
+                <tr>
+                  <th>
+                    <img src="img/profile.jpg" alt="">
+                  </th>
+                </tr>
+                <tr>
+                  <th>
+                    <header>John Doe</header>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </td>
+                </tr>
+              </table>
             </section>
-        </section>
+          </section>
+        </section><!--end #contact-->
 
         <footer>
             <p id="copyrights">

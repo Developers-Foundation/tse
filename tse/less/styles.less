@@ -2,22 +2,115 @@
 
 body {
   background-color: @cream;
-
+  margin: 0;
+  padding: 0;
   footer {
-    p {
-      margin-bottom: -15px;
-    }
+    color: @white;
+    background: @darkgray;
+    padding: 20px;
+    text-align: right;
+    margin-top: 40px;
   }
 }
 
+nav {
+  background: @white;
+  padding: 20px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  #title {
+    float: left;
+  }
+  ul {
+    margin-right: 50px;
+    padding: 0;
+    text-align: right;
+    list-style: none;
+    li {
+      display: inline-block;
+      a {
+        padding: 10px;
+      }
+    }
+ }
+}
+
 #landing {
+  margin: 100px 0;
+  width: 100%;
+  text-align: center;
   header {
+    display: -webkit-flex;
     display: flex;
+  }
+  img {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
   }
 }
 
 #about {
+  position: relative;
+  margin: 60px auto;
+  width: 80%;
+  section {
+    display: -webkit-flex;
+    display: flex;
+    .subject {
+      width: ~"calc(60% - 40px)";
+      padding: 20px;
+      header {
+        font-weight: bold;
+        align-content: left;
+      }
+    }
+    img {
+      width: 40%;
+      height: 200px;
+    }
+  }
+}
+
+#partners {
+  margin: 60px auto;
+  text-align: center;
+  img {
+    width: 300px;
+    padding: 20px;
+  }
+}
+
+#contact {
+  width: 80%;
+  position: relative;
+  margin: 60px auto;
   header {
-    font-weight: bold;
+    h2 {
+      margin: 0;
+      display: block;
+      text-align: center;
+    }
+  }
+  section {
+    display: -webkit-flex;
+    display: flex;
+    section {
+      width: 50%;
+      table {
+        padding: 20px;
+        margin: auto;
+        table th {
+          text-align: center;
+        }
+        img {
+          width: 200px;
+          height: 200px;
+        }
+      }
+    }
   }
 }

@@ -13,7 +13,7 @@ body h2 {
   margin: -10px 0 14px;
   padding: 0 0 4px 0;
   line-height: 30px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Quicksand', sans-serif;
   border-bottom: 1px solid #222;
   letter-spacing: 5px;
 }
@@ -34,6 +34,13 @@ nav {
 }
 nav #title {
   float: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+nav #title h1 {
+  margin: 0;
+  padding: 0 40px;
+  letter-spacing: 5px;
 }
 nav ul {
   margin-right: 50px;
@@ -45,34 +52,44 @@ nav ul li {
   display: inline-block;
 }
 nav ul li a {
-  padding: 10px;
+  font-size: 18px;
+  padding: 20px;
+  line-height: 31px;
+  letter-spacing: 0.5px;
 }
 #landing {
-  margin: 160px 0 80px;
+  padding: 160px 0 80px;
   width: 100%;
   text-align: center;
+  background-image: url("../../img/sockone.jpg");
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #landing header {
   display: -webkit-flex;
   display: flex;
 }
 #landing img {
-  border: 1px solid black;
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  background: #fff;
 }
 #about {
   position: relative;
-  margin: 60px auto;
-  width: 80%;
+  padding: 60px 0;
+  margin: auto;
 }
 #about section {
   display: -webkit-flex;
   display: flex;
+  width: 620px;
+  margin: auto;
+  padding: 20px;
 }
 #about section .subject {
-  width: calc(60% - 40px);
+  width: 300px;
   padding: 20px;
 }
 #about section .subject header {
@@ -80,7 +97,6 @@ nav ul li a {
   align-content: left;
 }
 #about section img {
-  width: 40%;
   height: 200px;
   margin: 10px 0 30px;
 }
@@ -127,8 +143,6 @@ nav ul li a {
 #contact section section table {
   padding: 20px;
   margin: auto;
-}
-#contact section section table table th {
   text-align: center;
 }
 #contact section section table img {

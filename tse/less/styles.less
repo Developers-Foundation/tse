@@ -14,7 +14,7 @@ body {
     margin: -10px 0 14px;
     padding: 0 0 4px 0;
     line-height: 30px;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Quicksand', sans-serif;
     border-bottom: 1px solid @darkgray;
     letter-spacing: 5px;
   }
@@ -36,6 +36,13 @@ nav {
   width: 100%;
   #title {
     float: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    h1 {
+      margin: 0;
+      padding: 0 40px;
+      letter-spacing: 5px;
+    }
   }
   ul {
     margin-right: 50px;
@@ -45,37 +52,47 @@ nav {
     li {
       display: inline-block;
       a {
-        padding: 10px;
+        font-size: 18px;
+        padding: 20px;
+        line-height: 31px;
+        letter-spacing: 0.5px;
       }
     }
  }
 }
 
 #landing {
-  margin: 160px 0 80px;
+  padding: 160px 0 80px;
   width: 100%;
   text-align: center;
+  background-image: url("@{imageone}");
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   header {
     display: -webkit-flex;
     display: flex;
   }
   img {
-    border: 1px solid black;
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    background: @white;
   }
 }
 
 #about {
   position: relative;
-  margin: 60px auto;
-  width: 80%;
+  padding: 60px 0;
+  margin: auto;
   section {
     display: -webkit-flex;
     display: flex;
+    width: 620px;
+    margin: auto;
+    padding: 20px;
     .subject {
-      width: ~"calc(60% - 40px)";
+      width: 300px;
       padding: 20px;
       header {
         font-weight: bold;
@@ -83,7 +100,6 @@ nav {
       }
     }
     img {
-      width: 40%;
       height: 200px;
       margin: 10px 0 30px;
     }
@@ -133,9 +149,7 @@ nav {
       table {
         padding: 20px;
         margin: auto;
-        table th {
           text-align: center;
-        }
         img {
           width: 200px;
           height: 200px;

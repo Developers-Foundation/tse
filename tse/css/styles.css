@@ -108,19 +108,14 @@ nav ul li a {
   width: 200px;
   margin: auto;
 }
-#partners .partnerlogo {
-  margin: 30px 0;
-  height: 145px;
+#partners .logoscontainer {
+  width: 700px;
+  margin: auto;
+  margin-top: 40px;
 }
-#partners .partnerlogo img {
-  margin: 0 10px;
-  display: inline-block;
-  vertical-align: middle;
-  width: 200px;
-  box-shadow: 0 10px 10px -10px #eee;
-}
-#partners .partnerlogo .wide {
-  padding: 35px 20px;
+#partners .logoscontainer img {
+  max-height: 100px;
+  border: none;
 }
 #contact {
   width: 80%;

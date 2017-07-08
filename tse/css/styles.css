@@ -62,7 +62,7 @@ nav ul li a {
   padding: 160px 0 80px;
   width: 100%;
   text-align: center;
-  background-image: url("../../img/sockone.jpg");
+  background-image: url("../../img/toronto_3.png");
   background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -145,5 +145,5 @@ nav ul li a {
 }
 #contact section section table img {
   width: 200px;
-  height: 200px;
+  height: 300px;
 }
